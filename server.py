@@ -12,6 +12,6 @@ def about():
     return render_template('about.html')
 
 
-@app.route('/work.html')
-def work():
-    return render_template()
+@app.route('/works.html')
+def works():
+    return render_template('works.html')
