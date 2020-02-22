@@ -28,3 +28,7 @@ def contact():
 @app.route('/index.html')
 def home():
     return render_template('index.html')
+
+@app.route('/submit_form', methods=['POST', 'GET'])
+def submit_form():
+    return 'Your form submitted'
